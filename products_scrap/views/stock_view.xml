@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<openerp>
+    <data>
+        <act_window
+            id="act_location_scrap_product_location"
+            name="Scrap Product"
+            groups=""
+            context="{'default_src_location_id':[active_id]}"
+            res_model="stock.scrap"
+            src_model="stock.location"
+            target="new"
+            view_mode="form"/>
+
+        <act_window
+            id="act_location_scrap_product"
+            name="Scrap Product"
+            groups=""
+            context="{'default_product_id':[active_id]}"
+            res_model="stock.scrap"
+            target="new"
+            src_model="product.product"
+            view_mode="form"/>
+
+    </data>
+</openerp>
