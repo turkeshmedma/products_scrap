@@ -38,6 +38,9 @@
         'views/stock_view.xml',
         'wizard/scrap_stock_view.xml',
     ],
+    'images': [
+        'static/description/icon.png',
+    ],
     "test": [],
     "js": [],
     "css": [],
