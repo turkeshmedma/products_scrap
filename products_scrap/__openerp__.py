@@ -39,7 +39,7 @@
         'wizard/scrap_stock_view.xml',
     ],
     'images': [
-        'static/description/icon.png',
+        'static/description/banner.png',
     ],
     "test": [],
     "js": [],
